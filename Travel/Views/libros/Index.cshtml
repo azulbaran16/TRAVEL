@@ -1,0 +1,32 @@
+﻿@model List<Travel.Models.auxiliar.libroAutor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Libros</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success"> <i class="fa fa-plus-circle"></i> Create New</a>
+</p>
+<div style="display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);">
+    @foreach (var item in Model) {
+<div class="card" style="width: 18rem; margin: 10px;">
+    <div class="card-body">
+            <h5 class="card-title">Titulo: @Html.DisplayFor(modelItem => item.titulo)</h5>
+                <h5 class="card-title">Autor: @Html.DisplayFor(modelItem => item.nombre_autor)</h5>
+                <h5 class="card-title" style="color:#6a6161cc">Editorial: @Html.DisplayFor(modelItem => item.nombre_editorial)</h5>
+            <p class="card-text">@Html.DisplayFor(modelItem => item.sinopsis)</p>
+            <div class="card-footer text-muted">
+               páginas: @Html.DisplayFor(modelItem => item.n_paginas)
+            </div>
+                <a asp-action="Edit" asp-route-id="@item.ISBN" style="font-size: 10px" class="btn btn-xs btn-success"> <i class="fa fa-pencil"></i> Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ISBN" style="font-size: 10px" class="btn btn-xs btn-primary"> <i class="fa fa-eye"></i> Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ISBN" style="font-size: 10px" class="btn btn-xs btn-danger"> <i class="fa fa-trash"></i> Delete</a>
+    </div>
+</div>
+}
+</div>

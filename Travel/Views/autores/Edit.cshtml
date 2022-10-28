@@ -1,0 +1,37 @@
+﻿@model Travel.Models.autores.autores
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>autores</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id" />
+            <div class="form-group">
+                <label asp-for="nombre" class="control-label"></label>
+                <input asp-for="nombre" data-val="true" data-val-required="The Nombre field is required." class="form-control" />
+                <span asp-validation-for="nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="apellidos" class="control-label"></label>
+                <input asp-for="apellidos" data-val="true" data-val-required="The Apellidos field is required." class="form-control" />
+                <span asp-validation-for="apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group" style="margin-top: 10px">
+                <input type="submit" style="font-size: 10px" value="Save" class="btn btn-primary" />
+                <a asp-action="Index" style="font-size: 10px" class="btn btn-primary"><i class="fa fa-arrow-rotate-back"></i> Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

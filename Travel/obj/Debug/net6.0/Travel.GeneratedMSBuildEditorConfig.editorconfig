@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Travel
+build_property.RootNamespace = Travel
+build_property.ProjectDir = C:\Travel_rep\TRAVEL\Travel\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Travel_rep\TRAVEL\Travel
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/autores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXV0b3Jlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/autores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXV0b3Jlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/autores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXV0b3Jlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/autores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXV0b3Jlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/autores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYXV0b3Jlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/editoriales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZWRpdG9yaWFsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/editoriales/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZWRpdG9yaWFsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/editoriales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZWRpdG9yaWFsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/editoriales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZWRpdG9yaWFsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/editoriales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZWRpdG9yaWFsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/libros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/libros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/libros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/libros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/libros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcbGlicm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Travel_rep/TRAVEL/Travel/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vxzsoq9bda

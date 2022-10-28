@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Travel.Models.autores.autores>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Autores</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success"> <i class="fa fa-plus-circle"></i> Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Apellidos
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apellidos)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.id" style="font-size: 10px" class="btn btn-success"> <i class="fa fa-pencil"></i> Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.id" style="font-size: 10px" class="btn btn-primary"> <i class="fa fa-eye"></i> Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.id" style="font-size: 10px" class="btn btn-danger"> <i class="fa fa-trash"></i> Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
